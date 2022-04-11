@@ -1,0 +1,38 @@
+"Coin toss" to determine who goes first
+
+player 1 = x
+player 2 = o
+
+need to be able to have each player be able to put x or o in spot (let it hover a transparent letter)
+
+once player is finished then it is next players turn
+
+
+let winner = array of possible outcomes
+
+if newboard === winnner then
+
+
+
+
+0 1 2
+0 1 2
+0 1 2
+
+
+
+
+
+
+
+
+Checkpoint1: Click on square and x appears
+
+Checkpoint2:
+
+Checkpoint3:
+
+Checkpoint4:
+
+Checkpoint5:
+

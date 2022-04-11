@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tic-Tac-Toe</title>
+  </head>
+  <body id="winnerscreen">
+    <div id="title"><h1>Tic-Tac-Toe</h1></div>
+    <div id="gamescreen">
+      <div id="whosTurn"></div>
+      <div id="playerList">
+        <div id="playerX"></div>
+        <div id="playerO"></div>
+      </div>
+      <div id="container">
+        <div class="board" id="board">
+          <div class="cell" id="1"></div>
+          <div class="cell" id="2"></div>
+          <div class="cell" id="3"></div>
+          <div class="cell" id="4"></div>
+          <div class="cell" id="5"></div>
+          <div class="cell" id="6"></div>
+          <div class="cell" id="7"></div>
+          <div class="cell" id="8"></div>
+          <div class="cell" id="9"></div>
+        </div>
+      </div>
+      <div id="inputs">
+        <input id="playerInput" type="text" placeholder="enter name" value="" />
+        <button id="playerName">Insert First Player</button>
+        <button id="playerName2">Insert Second Player</button>
+        <button id="nextTurn">Next Turn</button>
+      </div>
+      <div id="start">
+        <h3>X Will Go First</h3>
+      </div>
+      <div id="rule">
+        <h4>After Each Turn, Press Next Turn</h4>
+      </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
